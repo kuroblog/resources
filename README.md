@@ -1,7 +1,14 @@
 # Resources
 
+### Contents
+
 ***
 
-### [Markdown][markdown-root]
+* [Markdown](#markdown)
 
-[markdown-root]: ./markdown/quick-start.md "Link to Markdown Page"
+### Markdown
+
+***
+
+* [Quick Start](./markdown/quick-start.md "Link to Markdown Quick Start")
+
