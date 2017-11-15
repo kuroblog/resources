@@ -14,21 +14,38 @@ namespace WebApiSite.Controllers
         [ResponseType(typeof(PingDto))]
         public async Task<IHttpActionResult> Get()
         {
-            IHttpActionResult res = null;
+            pingDto = null;
+            return await Task.FromResult(GetPingResponse(pingDto));
+        }
 
+        [HttpPost]
+        [ResponseType(typeof(PingDto))]
+        public async Task<IHttpActionResult> Post([FromUri]Guid clientId)
+        {
+            pingDto = null;
+            return await Task.FromResult(GetPingResponse(pingDto));
+        }
+
+        private PingDto pingDto = null;
+
+        private IHttpActionResult GetPingResponse(PingDto ping)
+        {
+            IHttpActionResult res;
             try
             {
-                res = Content(HttpStatusCode.OK, new PingDto
+                ping = new PingDto
                 {
                     Status = PingStatus.Successful.GetValue()
-                });
+                };
+
+                res = Content(HttpStatusCode.OK, ping);
             }
             catch (Exception ex)
             {
                 res = InternalServerError(ex);
             }
 
-            return await Task.FromResult(res);
+            return res;
         }
     }
 

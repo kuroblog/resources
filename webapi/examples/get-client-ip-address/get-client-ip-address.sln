@@ -1,16 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSite", "WebApiSite\WebApiSite.csproj", "{B78C04B1-BE19-4E88-9585-4F48F257A831}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSite.Tests", "WebApiSite.Tests\WebApiSite.Tests.csproj", "{CD37CBC0-E494-4FC6-9F3C-C189EC401EC2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42470A14-CF0F-4B54-A0F9-0828F69C05B0}"
 	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSite", "WebApiSite\WebApiSite.csproj", "{B78C04B1-BE19-4E88-9585-4F48F257A831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSite.WebLoadTests", "WebApiSite.WebLoadTests\WebApiSite.WebLoadTests.csproj", "{95D7CCD7-AA97-4BB8-9CF1-99CBF3393D1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +23,10 @@ Global
 		{B78C04B1-BE19-4E88-9585-4F48F257A831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B78C04B1-BE19-4E88-9585-4F48F257A831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B78C04B1-BE19-4E88-9585-4F48F257A831}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD37CBC0-E494-4FC6-9F3C-C189EC401EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD37CBC0-E494-4FC6-9F3C-C189EC401EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD37CBC0-E494-4FC6-9F3C-C189EC401EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD37CBC0-E494-4FC6-9F3C-C189EC401EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D7CCD7-AA97-4BB8-9CF1-99CBF3393D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D7CCD7-AA97-4BB8-9CF1-99CBF3393D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D7CCD7-AA97-4BB8-9CF1-99CBF3393D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D7CCD7-AA97-4BB8-9CF1-99CBF3393D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
