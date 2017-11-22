@@ -10,6 +10,7 @@
   * [Markdown](#markdown)
 * [Tools](#tools)
   * [Visual Studio Code](#visual-studio-code)
+  * [Beyond Compare](#beyond-compare)
 * [Source Controls](#source-controls)
   * [GitHub](#github)
 
@@ -24,6 +25,8 @@
 ## Tools
 
 ### [Visual Studio Code](./vscode/readme.md "Link to Visual Studio Pages")
+
+### [Beyond Compare](./beyond-compare/readme.md "Link to Beyond Compare Pages")
 
 ***
 
